@@ -1,0 +1,39 @@
+settings:
+  description: Settings for the Namecheap API client.
+  api_user: Account name that owns the API key.
+  api_key: API key from Profile, Tools, Namecheap API Access.
+  username: Account the commands run on. Defaults to api_user.
+  client_ip: Whitelisted IPv4 address of the machine that makes the calls.
+  environment: 'Which Namecheap environment to call: production or sandbox.'
+  base_url: Full API URL. Overrides the environment when set.
+  production_url: API URL used for the production environment.
+  sandbox_url: API URL used for the sandbox environment.
+  commands: Command names sent for every call.
+  timeout: Seconds to wait for a single request.
+  max_retries: How many times a failed request is tried again.
+  max_retry_wait: Longest wait in seconds the client accepts between retries.
+  backoff_base: First backoff delay in seconds, doubled on every retry.
+  backoff_cap: Longest backoff delay in seconds.
+  page_size: Domains asked for on every page when listing, between 10 and 100.
+  default_ttl: TTL in seconds used for new records when none is given.
+  user_agent: User-Agent header. {version} is replaced with the package version.
+error:
+  request_failed: Request failed
+  missing_credentials: Missing credentials. Pass api_user, api_key and client_ip, set NAMECHEAP_API_USER,
+    NAMECHEAP_API_KEY and NAMECHEAP_CLIENT_IP, or point NAMECHEAP_CONFIG at a config file.
+  unknown_environment: 'Unknown environment {environment!r}. Use one of: {choices}.'
+  timeout: 'Request timed out: {error}'
+  connection: 'Connection failed: {error}'
+  not_saved: Namecheap did not confirm the change for {domain}
+  bad_xml: 'Namecheap answered with something that is not valid XML: {error}'
+value:
+  empty_domain: domain must not be empty
+  no_tld: '{domain!r} has no TLD, pass a full domain like example.com'
+  empty_name: record name must not be empty, use '@' for the apex
+  empty_type: record type must not be empty
+  no_values: at least one record value is required
+  add_needs_records: add() needs at least one DNSRecord
+  foreign_name: '{name!r} is not inside {domain}'
+  ttl_range: TTL must be between 60 and 60000 seconds, got {ttl}
+  no_domains: available_many() needs at least one domain
+  nameserver_count: a domain needs at least 2 name servers, got {count}

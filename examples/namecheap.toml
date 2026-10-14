@@ -1,0 +1,5 @@
+api_user = "your-user"
+api_key = "your-key"
+client_ip = "203.0.113.5"
+environment = "sandbox"
+timeout = 15
