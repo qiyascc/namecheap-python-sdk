@@ -1,5 +1,7 @@
 # namecheap-python-sdk
 
+[![PyPI](https://img.shields.io/pypi/v/namecheap-python-sdk?color=3775A9&logo=pypi&logoColor=white)](https://pypi.org/project/namecheap-python-sdk/)
+
 A small, typed Python client for the Namecheap Domains and DNS API. It works with both sync and async code, turns Namecheap's XML into plain dataclasses, and makes the "replace everything" DNS API safe to use one record at a time.
 
 ```python
@@ -306,6 +308,7 @@ The tests use `httpx.MockTransport`, so they never touch the real API.
 
 - Source code: [github.com/qiyascc/namecheap-python-sdk](https://github.com/qiyascc/namecheap-python-sdk)
 - PyPI: [pypi.org/project/namecheap-python-sdk](https://pypi.org/project/namecheap-python-sdk/)
+- Project page: [theqiyas.cc/projects/namecheap-python-sdk](https://theqiyas.cc/projects/namecheap-python-sdk/)
 - Author: [Qiyas Sadıqov](https://theqiyas.cc), more projects at [theqiyas.cc](https://theqiyas.cc)
 
 ## License
