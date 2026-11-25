@@ -1,13 +1,13 @@
 # About
 
-The Namecheap Python SDK is written and maintained by **Qiyas Sadıqov**. More projects by the same author, including the other SDKs and Django packages, are on [theqiyas.cc](https://theqiyas.cc).
+The Namecheap Python SDK is written and maintained by **Qiyas Sadıqov**. More projects by the same author, including the other SDKs and Django packages, are on [qiyas.cc](https://qiyas.cc).
 
 ## Links
 
 - Documentation: [namecheap-python-sdk.readthedocs.io](https://namecheap-python-sdk.readthedocs.io/en/latest/)
 - Source code: [github.com/qiyascc/namecheap-python-sdk](https://github.com/qiyascc/namecheap-python-sdk)
 - PyPI: [pypi.org/project/namecheap-python-sdk](https://pypi.org/project/namecheap-python-sdk/)
-- Project page: [theqiyas.cc/projects/namecheap-python-sdk](https://theqiyas.cc/projects/namecheap-python-sdk/)
+- Project page: [qiyas.cc/projects/namecheap-python-sdk](https://qiyas.cc/projects/namecheap-python-sdk/)
 - Issues: [github.com/qiyascc/namecheap-python-sdk/issues](https://github.com/qiyascc/namecheap-python-sdk/issues)
 
 ## The DNS SDK family

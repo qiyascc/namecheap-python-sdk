@@ -33,7 +33,7 @@ dev = ["namecheap-python-sdk[toml,yaml]", "pytest>=7", "pytest-asyncio>=0.21", "
 
 [project.urls]
 Documentation = "https://namecheap-python-sdk.readthedocs.io/"
-Homepage = "https://theqiyas.cc"
+Homepage = "https://qiyas.cc"
 Source = "https://github.com/qiyascc/namecheap-python-sdk"
 Issues = "https://github.com/qiyascc/namecheap-python-sdk/issues"
 Changelog = "https://github.com/qiyascc/namecheap-python-sdk/blob/main/CHANGELOG.md"

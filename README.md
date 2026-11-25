@@ -310,8 +310,8 @@ The tests use `httpx.MockTransport`, so they never touch the real API.
 - Documentation: [namecheap-python-sdk.readthedocs.io](https://namecheap-python-sdk.readthedocs.io/en/latest/)
 - Source code: [github.com/qiyascc/namecheap-python-sdk](https://github.com/qiyascc/namecheap-python-sdk)
 - PyPI: [pypi.org/project/namecheap-python-sdk](https://pypi.org/project/namecheap-python-sdk/)
-- Project page: [theqiyas.cc/projects/namecheap-python-sdk](https://theqiyas.cc/projects/namecheap-python-sdk/)
-- Author: [Qiyas Sadıqov](https://theqiyas.cc), more projects at [theqiyas.cc](https://theqiyas.cc)
+- Project page: [qiyas.cc/projects/namecheap-python-sdk](https://qiyas.cc/projects/namecheap-python-sdk/)
+- Author: [Qiyas Sadıqov](https://qiyas.cc), more projects at [qiyas.cc](https://qiyas.cc)
 
 ## License
 
